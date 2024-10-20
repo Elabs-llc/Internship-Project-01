@@ -34,9 +34,9 @@ This Python-based tool scrapes data from multiple websites, processes the data, 
 This project was developed with contributions from the following team members:
 
 - **[Edwin Asare]** - Project Lead, Data Processing & Generators
-- **[Contributor 2]** - Data Cleaning & List Comprehensions
+- **[Blessing Laryea]** - Data Cleaning & List Comprehensions
 - **[Contributor 3]** - Web Scraping & Error Handling
-- **[Contributor 4]** - Sorting, Filtering & Lambda Functions
+- **[Kwadwo Tuffour Quayson]** - Sorting, Filtering & Lambda Functions
 
 ## Task Allocation for Contributors
 
@@ -47,10 +47,10 @@ This project was developed with contributions from the following team members:
    - **Edwin Asare**: Focuses on processing the scraped data in real-time using Python generators to yield results without overloading memory.
 
 3. **Sorting, Filtering & Lambda Functions**:
-   - **Contributor 4**: Implements sorting and filtering functionality using lambda expressions to manage the scraped data (e.g., sorting by price, filtering by criteria).
+   - **Kwadwo Tuffour Quayson**: Implements sorting and filtering functionality using lambda expressions to manage the scraped data (e.g., sorting by price, filtering by criteria).
 
 4. **Data Cleaning & List Comprehensions**:
-   - **Contributor 2**: Uses list comprehensions to clean, transform, and normalize the scraped data, such as removing HTML tags and formatting text fields.
+   - **Blessing Laryea**: Uses list comprehensions to clean, transform, and normalize the scraped data, such as removing HTML tags and formatting text fields.
 
 ## License
 This project is licensed under the MIT License.

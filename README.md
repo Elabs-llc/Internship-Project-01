@@ -35,13 +35,13 @@ This project was developed with contributions from the following team members:
 
 - **[Edwin Asare]** - Project Lead, Data Processing & Generators
 - **[Blessing Laryea]** - Data Cleaning & List Comprehensions
-- **[Contributor 3]** - Web Scraping & Error Handling
+- **[Victor Kwame Mawuli]** - Web Scraping & Error Handling
 - **[Kwadwo Tuffour Quayson]** - Sorting, Filtering & Lambda Functions
 
 ## Task Allocation for Contributors
 
 1. **Web Scraping & Error Handling**:
-   - **Contributor 3**: Responsible for implementing web scraping logic using `requests` and `BeautifulSoup`, and applying the retry decorator for error handling and failed web requests.
+   - **Victor Kwame Mawuli**: Responsible for implementing web scraping logic using `requests` and `BeautifulSoup`, and applying the retry decorator for error handling and failed web requests.
 
 2. **Data Processing & Generators**:
    - **Edwin Asare**: Focuses on processing the scraped data in real-time using Python generators to yield results without overloading memory.

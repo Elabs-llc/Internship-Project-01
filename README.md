@@ -22,7 +22,7 @@ This Python-based tool scrapes data from multiple websites, processes the data, 
    ```
 3. Run the script:
    ```bash
-   python scraper.py
+   python main.py
    ```
 
 ## Requirements

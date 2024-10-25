@@ -73,7 +73,7 @@ Main script for running the scraping process:
 
 ### Change Target URL
 
-To scrape data from a different URL, modify the `url` variable in `scrape_to_html.py`:
+To scrape data from a different URL, modify the `url` variable in `scraper.py`:
 
 ```python
 # Modify this line in scrape_to_html.py

@@ -1,6 +1,5 @@
 import os
 import webbrowser
-from scraper import scrape_election_news  
 
 """
 html_generator.py
@@ -30,7 +29,7 @@ def generate_html(news_data, output_file='scraped_news.html'):
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Scraped Election News</title>
+        <title>Scraped Election News In Ghana</title>
         <style>
             body { font-family: Arial, sans-serif; margin: 20px; }
             h1 { color: #333; }

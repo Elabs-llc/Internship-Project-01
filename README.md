@@ -76,6 +76,6 @@ Main script for running the scraping process:
 To scrape data from a different URL, modify the `url` variable in `scraper.py`:
 
 ```python
-# Modify this line in scrape_to_html.py
+# Modify this line in scraper.py
 url = 'https://www.ghanaweb.com/elections/2024/news'
 ```

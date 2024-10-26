@@ -26,8 +26,15 @@ def main():
     # Example URL to scrape
     url = 'https://www.ghanaweb.com/elections/2024/news'
 
+    # Prompt the user to enter keywords for filtering, separated by commas
+    '''
+    Remove comments to enable user input for filter keywords. and comments the filter_keywords variable below
+    '''
+    # user_input = input("Enter keywords for filtering (separate by commas): ")
+    # filter_keywords = [keyword.strip() for keyword in user_input.split(',') if keyword.strip()]
+
     # Set filter keywords (example: filter by 'election' or 'Ghana')
-    filter_keywords = ['election', 'Ghana']
+    filter_keywords = ['election', 'Ghana'] # comment this if you want to use user input
 
     # Scrape the news data
     #scraped_data = list(scrape_election_news(url))

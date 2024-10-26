@@ -1,5 +1,6 @@
 from html_generator import generate_html
 from scraper import scrape_election_news
+from sorting_and_filter import process_election_news, print_election_news
 
 
 """
@@ -25,11 +26,21 @@ def main():
     # Example URL to scrape
     url = 'https://www.ghanaweb.com/elections/2024/news'
 
-    # Scrape the news data
-    scraped_data = list(scrape_election_news(url))
+    # Set filter keywords (example: filter by 'election' or 'Ghana')
+    filter_keywords = ['election', 'Ghana']
 
-    # Generate and open the HTML page
-    generate_html(scraped_data)
+    # Scrape the news data
+    #scraped_data = list(scrape_election_news(url))
+
+    # Process news data by fetching, sorting, and filtering
+    processed_data = process_election_news(url, filter_keywords)
+
+    # Print the processed data to console (optional) | displays the
+    # filtered and sorted news data in the console for verification.
+    print_election_news(processed_data)
+
+    # Generate and open the HTML page with the filtered and sorted data
+    generate_html(processed_data)
 
 
 if __name__ == "__main__":

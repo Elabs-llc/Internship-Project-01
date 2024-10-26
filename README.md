@@ -63,7 +63,16 @@ Contains the `generate_html` generator:
 - Generates an HTML file with the collected data.
 - Opens the generated HTML file automatically in the default web browser.
 
-## main.py
+### sorting_and_filter.py
+
+Contains the `sort_election_news_by_date`, `filter_election_news_by_keywords`, `process_election_news` and `print_election_news` function:
+
+- **Sort by Date:** Uses lambda functions to sort election news articles in descending order by publication date.
+- **Keyword-Based Filtering:** Allows keyword filtering within article titles to capture relevant election news topics.
+- **Efficient and Readable:** The lambda functions provide concise, on-the-fly sorting and filtering, improving code readability and reducing complexity.
+- **Error Handling:** If a date or keyword is missing, appropriate fallbacks and error messages are included to maintain process continuity.
+
+### main.py
 
 Main script for running the scraping process:
 

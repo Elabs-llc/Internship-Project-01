@@ -38,8 +38,12 @@ class ElectionDataCleaner:
         Returns:
             List of cleaned article dictionaries
         """
-        return [
-            {
+        cleaned_articles = []
+        for article in raw_articles:
+            if not article or not article.get('title'):
+                continue
+
+            cleaned_article = {
                 'title': self.clean_text(article.get('title', '')),
                 'content': self.clean_text(article.get('content', '')),
                 'date': self.normalize_date(article.get('date', '')),
@@ -48,9 +52,16 @@ class ElectionDataCleaner:
                 'regions_mentioned': self.extract_regions(article.get('content', '')),
                 'parties_mentioned': self.extract_parties(article.get('content', ''))
             }
-            for article in raw_articles
-            if article and article.get('content')
-        ]
+
+            # Add additional checks or debugging here, e.g.: | will be log using logger module
+            # if not cleaned_article['election_related']:
+            #     print(f"Article not election-related: {cleaned_article['title']}")
+            # if not cleaned_article['regions_mentioned'] and not cleaned_article['parties_mentioned']:
+            #     print(f"No regions or parties mentioned: {cleaned_article['title']}")
+
+            cleaned_articles.append(cleaned_article)
+
+        return cleaned_articles
 
     def clean_text(self, text: str) -> str:
         """
@@ -186,5 +197,5 @@ def main():
         print(f"Parties: {', '.join(article['parties_mentioned'])}")
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()

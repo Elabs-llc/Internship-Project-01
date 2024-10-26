@@ -61,13 +61,25 @@ def generate_html(news_data, output_file='scraped_news.html'):
                 padding: 0;
                 margin: 0;
             }
-            .card-list li {
+            h1 {
                 background-color: #fff;
                 border: 1px solid #ddd;
                 border-radius: 8px;
                 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
                 padding: 16px;
-                width: calc(33.333% - 20px);
+                transition: transform 0.3s ease, box-shadow 0.3s ease; 
+            }
+            img {
+                width: 50px;
+                height: 50px;
+            }
+            .card-list li{
+                background-color: #fff;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                padding: 16px;
+                width: calc(45.333% - 20px);
                 transition: transform 0.3s ease, box-shadow 0.3s ease; 
             }
             .card-list li:hover {
@@ -82,7 +94,7 @@ def generate_html(news_data, output_file='scraped_news.html'):
     </head>
     <body>
         <div class="container">
-            <h1>Election News</h1>
+            <h1><img src="ghana-flag.png" alt="Ghana Flag"/> Election 2024, Ghana Election News <img src="ghana-flag.png" alt="Ghana Flag"/></h1>
             <div class="card-container">
                 <ul class='card-list'>
     """
@@ -92,7 +104,18 @@ def generate_html(news_data, output_file='scraped_news.html'):
         if 'error' in news:
             html_content += f"<li class='error'>Error: {news['error']}</li>"
         else:
-            html_content += f"<li><a href='{news['url']}' target='_blank'>{news['title']}</a></li>"
+            title = news.get('title', 'No title available')
+            url = news.get('url', '#')
+            date = news.get('date', 'No date available')
+            content = news.get('content', 'No content available')
+
+            html_content += f"""
+                <li class="news-item">
+                    <div class="title"><a href="{url}" target="_blank">{title}</a></div>
+                    <div class="date">Published on: {date}</div>
+                    <div class="content">{content}</div>
+                </li>
+            """
 
     # Closing HTML tags
     html_content += """

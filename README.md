@@ -72,6 +72,21 @@ Contains the `sort_election_news_by_date`, `filter_election_news_by_keywords`, `
 - **Efficient and Readable:** The lambda functions provide concise, on-the-fly sorting and filtering, improving code readability and reducing complexity.
 - **Error Handling:** If a date or keyword is missing, appropriate fallbacks and error messages are included to maintain process continuity.
 
+### data_cleaning_list_comprehension.py
+
+Contains data cleaning functions utilizing list comprehensions:
+
+- **Data Processing:** Cleans and processes raw scraped data by removing unwanted characters or formatting issues.
+- **Efficient Data Transformation:** Uses list comprehensions for efficient iteration and transformation of data items.
+- **Prepared Data for Further Use:** Ensures the cleaned data is ready for further processing or display, reducing manual data handling efforts.
+
+### logs.py
+
+Contains logging configurations and utility functions:
+
+- **Logging Configuration:** Sets up the logging configuration to capture INFO level logs and above in logs.log.
+- **Function Execution Logging:** Includes decorators to log function execution times and return values, enhancing the visibility of data flow within the application.
+
 ### main.py
 
 Main script for running the scraping process:

@@ -1,0 +1,222 @@
+2024-10-26 21:48:07,994 - INFO - Function 'scrape_election_news' executed in 0.0000 seconds
+2024-10-26 21:48:07,994 - INFO - URL scraped successfully ! and took: : Function wrapper returned: <generator object scrape_election_news at 0x0000017F92385900>
+2024-10-26 21:48:09,138 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,139 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 2024 Election Mahama engages Diplomatic Corps on electoral integrity and Ghana's democratic future
+2024-10-26 21:48:09,139 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,139 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,150 - INFO - Function 'normalize_date' executed in 0.0110 seconds
+2024-10-26 21:48:09,150 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,150 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,151 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: Bawku on the Brink NPP PC suspends campaign amid rising tensions
+2024-10-26 21:48:09,151 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,151 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,152 - INFO - Function 'normalize_date' executed in 0.0010 seconds
+2024-10-26 21:48:09,152 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,152 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,153 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: A strong name within the NPP will betray Bawumia shortly before the elections - Prophet predicts
+2024-10-26 21:48:09,153 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,153 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,153 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,154 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,154 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,154 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: NEIP CEO slams NPP MPs, PCs who do not believe in party's chances in 2024 polls
+2024-10-26 21:48:09,154 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,155 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,155 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,155 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,156 - INFO - Function 'clean_text' executed in 0.0010 seconds
+2024-10-26 21:48:09,156 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: Eschew partisan politics, election prophecies to prevent tension - Clergy told
+2024-10-26 21:48:09,156 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,156 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,157 - INFO - Function 'normalize_date' executed in 0.0010 seconds
+2024-10-26 21:48:09,157 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,157 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,157 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: A whole former president Kwamena Duncan slams Mahama over 'Ga-digitalization' comment
+2024-10-26 21:48:09,158 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,158 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,159 - INFO - Function 'normalize_date' executed in 0.0010 seconds
+2024-10-26 21:48:09,159 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,159 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,159 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: Jomoro NPP members threw a party upon hearing my involvement in accident - MP claims
+2024-10-26 21:48:09,160 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,160 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,160 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,161 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,161 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,161 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: Our record will secure the NPPs win, unlike the NDC, which relies on rigging - Ursula Owusu-Ekuful
+2024-10-26 21:48:09,161 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,162 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,162 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,162 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,163 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,163 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: South Tongu shows love to Bawumia
+2024-10-26 21:48:09,163 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,163 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,164 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,164 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,164 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,165 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: Parliamentary Standoff Respect the people you're representing - NDC caucus rebuked
+2024-10-26 21:48:09,165 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,165 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,166 - INFO - Function 'normalize_date' executed in 0.0010 seconds
+2024-10-26 21:48:09,166 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,166 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,166 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: Drones bridging gap in our healthcare delivery Pastor celebrates Bawumias Health Initiatives
+2024-10-26 21:48:09,166 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,166 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,167 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,167 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,167 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,167 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: In 2024 do we eat roads Bawa Mogtari questions NPP government
+2024-10-26 21:48:09,168 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,168 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,168 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,168 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,168 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,169 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: NDC raises concerns over ECs contract with YASARKO
+2024-10-26 21:48:09,169 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,169 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,169 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,169 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,170 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,170 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: Mahama more credible to tackle corruption than Bawumia Emmanuel Wilson
+2024-10-26 21:48:09,170 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,170 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,170 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,170 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,171 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,171 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: Low participation of females in 2024 elections worrying EC
+2024-10-26 21:48:09,171 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,171 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,171 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,171 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,172 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,172 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: Bawumia intends to commission uncompleted Agenda 111 hospitals for votes - Ayariga
+2024-10-26 21:48:09,172 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,172 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,172 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,172 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,173 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,173 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 2024 election is unprecedented in Ghana's history - Alban Bagbin
+2024-10-26 21:48:09,173 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,173 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,173 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,174 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,174 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,174 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 'My constituents say Afenyo-Markin gives them GH1,000 to go and vote in Winneba' - Cynthia Morrison
+2024-10-26 21:48:09,174 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,174 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,174 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,175 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,175 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,175 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: Were already putting in place structures to govern this country - NDC's Beatrice Annan
+2024-10-26 21:48:09,175 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,175 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,176 - INFO - Function 'normalize_date' executed in 0.0010 seconds
+2024-10-26 21:48:09,176 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,176 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,176 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 43 Days to Go 'You will hear by midnight of December 7 that NPP has won this election' - Dr. Bawumia
+2024-10-26 21:48:09,176 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,176 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,177 - INFO - Function 'normalize_date' executed in 0.0010 seconds
+2024-10-26 21:48:09,177 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,177 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,177 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: The feeling in Accra is different from the regions - Ayew Afriye confident NPP will win all Middle Belt seats
+2024-10-26 21:48:09,177 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,177 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,178 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,178 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,178 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,178 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: Hassan Ayariga promises meter-free water, electricity
+2024-10-26 21:48:09,178 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,178 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,179 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,179 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,179 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,179 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: Bagbin must recall Parliament immediately - IPG
+2024-10-26 21:48:09,179 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,180 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,180 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,180 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,180 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,180 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: NDC's reset means cancellation of nurses 'Alawa' - NAPO
+2024-10-26 21:48:09,181 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,181 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,181 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,181 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,181 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,181 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: Your high moral values are in line with our Anlo tradition - Keta chiefs to Bawumia
+2024-10-26 21:48:09,182 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,182 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,182 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,182 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,182 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,183 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: Keta chiefs express confidence in Bawumia's bold policies for Ghana
+2024-10-26 21:48:09,183 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,183 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,184 - INFO - Function 'normalize_date' executed in 0.0010 seconds
+2024-10-26 21:48:09,184 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,184 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,184 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: Your government has been development-oriented footprints are visible everywhere - Chief of Kedzi to Bawumia
+2024-10-26 21:48:09,184 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,185 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,185 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,185 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,186 - INFO - Function 'clean_text' executed in 0.0010 seconds
+2024-10-26 21:48:09,186 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: Independent presidential candidate proposes new economic development model for Ghana
+2024-10-26 21:48:09,186 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,186 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,186 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,187 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,187 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,187 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: NPPs Caucus request for parliaments recall is ridiculous Alhassan Suhiyini
+2024-10-26 21:48:09,187 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,188 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,188 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,188 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,188 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,189 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: You are one politician who can't be tagged as corrupt - Pastor tells Bawumia
+2024-10-26 21:48:09,189 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,189 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,189 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,190 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,190 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,190 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: Ballot Briefing Bawumia campaigns in Volta region, Bernard Mornah still disqualified from presidential race
+2024-10-26 21:48:09,190 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,190 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,191 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,191 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,191 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,192 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 44 Days to Go Why are 13 people on the ballot paper - Prof Prempeh slams EC
+2024-10-26 21:48:09,192 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,192 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,193 - INFO - Function 'normalize_date' executed in 0.0010 seconds
+2024-10-26 21:48:09,193 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,193 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,193 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: Digital Kenkey and Fish Ga youth jump to the defence of Mahama
+2024-10-26 21:48:09,194 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,194 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,194 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,194 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,194 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,195 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: Alan Kyerematen's agriculture policy to transform Ghana - Boniface
+2024-10-26 21:48:09,195 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,195 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,195 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,195 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,195 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,196 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: Why the threats and attacks - Prophet Elbernard fumes after predicting Mahamas victory
+2024-10-26 21:48:09,196 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,196 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,196 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,196 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,197 - INFO - Function 'clean_text' executed in 0.0010 seconds
+2024-10-26 21:48:09,197 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: Im more focused Keche Andrew's wife speaks after EC disqualification
+2024-10-26 21:48:09,197 - INFO - Function 'clean_text' executed in 0.0000 seconds
+2024-10-26 21:48:09,197 - INFO - HTML tags, special characters, and normalizes whitespace removed from news: Function wrapper returned: 
+2024-10-26 21:48:09,197 - INFO - Function 'normalize_date' executed in 0.0000 seconds
+2024-10-26 21:48:09,197 - INFO - date formats normalized: Function wrapper returned: 
+2024-10-26 21:48:09,198 - INFO - Function 'clean_articles' executed in 0.0600 seconds
+2024-10-26 21:48:09,198 - INFO - New article cleaned successfully: Function wrapper returned: [{'title': "2024 Election Mahama engages Diplomatic Corps on electoral integrity and Ghana's democratic future", 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/2024-Election-Mahama-engages-Diplomatic-Corps-on-electoral-integrity-and-Ghana-s-democratic-future-1957239', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'Bawku on the Brink NPP PC suspends campaign amid rising tensions', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/regional/Bawku-on-the-Brink-NPP-PC-suspends-campaign-amid-rising-tensions-1957215', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'A strong name within the NPP will betray Bawumia shortly before the elections - Prophet predicts', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/NewsArchive/A-strong-name-within-the-NPP-will-betray-Bawumia-shortly-before-the-elections-Prophet-predicts-1957208', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': "NEIP CEO slams NPP MPs, PCs who do not believe in party's chances in 2024 polls", 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/NEIP-CEO-slams-NPP-MPs-PCs-who-do-not-believe-in-party-s-chances-in-2024-polls-1957199', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'Eschew partisan politics, election prophecies to prevent tension - Clergy told', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/NewsArchive/Eschew-partisan-politics-election-prophecies-to-prevent-tension-Clergy-told-1957196', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': "A whole former president Kwamena Duncan slams Mahama over 'Ga-digitalization' comment", 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/A-whole-former-president-Kwamena-Duncan-slams-Mahama-over-Ga-digitalization-comment-1957186', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'Jomoro NPP members threw a party upon hearing my involvement in accident - MP claims', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/Jomoro-NPP-members-threw-a-party-upon-hearing-my-involvement-in-accident-MP-claims-1957178', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'Our record will secure the NPPs win, unlike the NDC, which relies on rigging - Ursula Owusu-Ekuful', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/Our-record-will-secure-the-NPP-s-win-unlike-the-NDC-which-relies-on-rigging-Ursula-Owusu-Ekuful-1957175', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'South Tongu shows love to Bawumia', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/South-Tongu-shows-love-to-Bawumia-1957173', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': "Parliamentary Standoff Respect the people you're representing - NDC caucus rebuked", 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/Parliamentary-Standoff-Respect-the-people-you-re-representing-NDC-caucus-rebuked-1957168', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'Drones bridging gap in our healthcare delivery Pastor celebrates Bawumias Health Initiatives', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/NewsArchive/Drones-bridging-gap-in-our-healthcare-delivery-Pastor-celebrates-Bawumia-s-Health-Initiatives-1957167', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'In 2024 do we eat roads Bawa Mogtari questions NPP government', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/In-2024-do-we-eat-roads-Bawa-Mogtari-questions-NPP-government-1957156', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'NDC raises concerns over ECs contract with YASARKO', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/NDC-raises-concerns-over-EC-s-contract-with-YASARKO-1957155', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'Mahama more credible to tackle corruption than Bawumia Emmanuel Wilson', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/Mahama-more-credible-to-tackle-corruption-than-Bawumia-Emmanuel-Wilson-1957154', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'Low participation of females in 2024 elections worrying EC', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/Low-participation-of-females-in-2024-elections-worrying-EC-1957123', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'Bawumia intends to commission uncompleted Agenda 111 hospitals for votes - Ayariga', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/Bawumia-intends-to-commission-uncompleted-Agenda-111-hospitals-for-votes-Ayariga-1957119', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': "2024 election is unprecedented in Ghana's history - Alban Bagbin", 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/2024-election-is-unprecedented-in-Ghana-s-history-Alban-Bagbin-1957111', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': "'My constituents say Afenyo-Markin gives them GH1,000 to go and vote in Winneba' - Cynthia Morrison", 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/My-constituents-say-Afenyo-Markin-gives-them-GH-1-000-to-go-and-vote-in-Winneba-Cynthia-Morrison-1957095', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': "Were already putting in place structures to govern this country - NDC's Beatrice Annan", 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/We-re-already-putting-in-place-structures-to-govern-this-country-NDC-s-Beatrice-Annan-1957082', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': "43 Days to Go 'You will hear by midnight of December 7 that NPP has won this election' - Dr. Bawumia", 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/43-Days-to-Go-You-will-hear-by-midnight-of-December-7-that-NPP-has-won-this-election-Dr-Bawumia-1957070', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'The feeling in Accra is different from the regions - Ayew Afriye confident NPP will win all Middle Belt seats', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/The-feeling-in-Accra-is-different-from-the-regions-Ayew-Afriye-confident-NPP-will-win-all-Middle-Belt-seats-1957043', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'Hassan Ayariga promises meter-free water, electricity', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/business/Hassan-Ayariga-promises-meter-free-water-electricity-1957038', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'Bagbin must recall Parliament immediately - IPG', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/NewsArchive/Bagbin-must-recall-Parliament-immediately-IPG-1957027', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': "NDC's reset means cancellation of nurses 'Alawa' - NAPO", 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/NewsArchive/NDC-s-reset-means-cancellation-of-nurses-Alawa-NAPO-1957013', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'Your high moral values are in line with our Anlo tradition - Keta chiefs to Bawumia', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/Your-high-moral-values-are-in-line-with-our-Anlo-tradition-Keta-chiefs-to-Bawumia-1956998', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': "Keta chiefs express confidence in Bawumia's bold policies for Ghana", 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/Keta-chiefs-express-confidence-in-Bawumia-s-bold-policies-for-Ghana-1956997', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'Your government has been development-oriented footprints are visible everywhere - Chief of Kedzi to Bawumia', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/NewsArchive/Your-government-has-been-development-oriented-footprints-are-visible-everywhere-Chief-of-Kedzi-to-Bawumia-1956995', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'Independent presidential candidate proposes new economic development model for Ghana', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/Independent-presidential-candidate-proposes-new-economic-development-model-for-Ghana-1956993', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'NPPs Caucus request for parliaments recall is ridiculous Alhassan Suhiyini', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/NPP-s-Caucus-request-for-parliament-s-recall-is-ridiculous-Alhassan-Suhiyini-1956980', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': "You are one politician who can't be tagged as corrupt - Pastor tells Bawumia", 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/You-are-one-politician-who-can-t-be-tagged-as-corrupt-Pastor-tells-Bawumia-1956961', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'Ballot Briefing Bawumia campaigns in Volta region, Bernard Mornah still disqualified from presidential race', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/NewsArchive/Ballot-Briefing-Bawumia-campaigns-in-Volta-region-Bernard-Mornah-still-disqualified-from-presidential-race-1956958', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': '44 Days to Go Why are 13 people on the ballot paper - Prof Prempeh slams EC', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/NewsArchive/44-Days-to-Go-Why-are-13-people-on-the-ballot-paper-Prof-Prempeh-slams-EC-1956952', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'Digital Kenkey and Fish Ga youth jump to the defence of Mahama', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/politics/Digital-Kenkey-and-Fish-Ga-youth-jump-to-the-defence-of-Mahama-1956943', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': "Alan Kyerematen's agriculture policy to transform Ghana - Boniface", 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/business/Alan-Kyerematen-s-agriculture-policy-to-transform-Ghana-Boniface-1956919', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': 'Why the threats and attacks - Prophet Elbernard fumes after predicting Mahamas victory', 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/entertainment/Why-the-threats-and-attacks-Prophet-Elbernard-fumes-after-predicting-Mahama-s-victory-1956917', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}, {'title': "Im more focused Keche Andrew's wife speaks after EC disqualification", 'content': '', 'date': '', 'url': 'https://www.ghanaweb.com/GhanaHomePage/entertainment/I-m-more-focused-Keche-Andrew-s-wife-speaks-after-EC-disqualification-1956914', 'election_related': False, 'regions_mentioned': [], 'parties_mentioned': []}]
+2024-10-26 21:48:09,914 - INFO - Function 'generate_html' executed in 0.7140 seconds
+2024-10-26 21:48:09,914 - INFO - HTML of news generated successfully: Function wrapper returned: None

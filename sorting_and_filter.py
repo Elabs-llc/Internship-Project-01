@@ -1,8 +1,11 @@
 from datetime import datetime
 
+from logs import log_execution_time, log_message
 from scraper import scrape_election_news
 
-
+# Log message & execution time
+@log_message(message='Election news sorted by date ')
+@log_execution_time
 def sort_election_news_by_date(scraped_data):
     """
     Sorts election news by publication date in descending order (latest first).
@@ -19,7 +22,9 @@ def sort_election_news_by_date(scraped_data):
         reverse=True
     )
 
-
+# Log message & execution time
+@log_message(message='Filtered election news successfully!')
+@log_execution_time
 def filter_election_news_by_keywords(sorted_data, filter_keywords):
     """
     Filters election news articles based on specific keywords in the title.
@@ -35,7 +40,9 @@ def filter_election_news_by_keywords(sorted_data, filter_keywords):
         filter(lambda x: any(kw.lower() in x.get('title', '').lower() for kw in filter_keywords), sorted_data)
     )
 
-
+# Log message & execution time
+@log_message(message='Election news processed successfully ! and took: ')
+@log_execution_time
 def process_election_news(url, filter_keywords):
     """
     Fetches, sorts, and filters election news articles.
@@ -58,7 +65,9 @@ def process_election_news(url, filter_keywords):
 
     return filtered_data
 
-
+# Log message & execution time
+@log_message(message='Printed processed election news articles.')
+@log_execution_time
 def print_election_news(processed_data):
     """Prints the processed election news articles."""
     for article in processed_data:

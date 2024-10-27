@@ -2,6 +2,8 @@ from typing import List, Dict, Any
 from datetime import datetime
 import re
 
+from logs import log_execution_time, log_message
+
 
 class ElectionDataCleaner:
     def __init__(self):
@@ -28,6 +30,9 @@ class ElectionDataCleaner:
             'North East', 'Savannah', 'Oti', 'Western North'
         ]
 
+    # Log message & execution time
+    @log_message(message='New article cleaned successfully')
+    @log_execution_time
     def clean_articles(self, raw_articles: List[Dict[str, str]]) -> List[Dict[str, str]]:
         """
         Clean article data using list comprehensions.
@@ -63,6 +68,9 @@ class ElectionDataCleaner:
 
         return cleaned_articles
 
+    # Log message & execution time
+    @log_message(message='HTML tags, special characters, and normalizes whitespace removed from news')
+    @log_execution_time
     def clean_text(self, text: str) -> str:
         """
         Clean text using list comprehension.
@@ -81,6 +89,9 @@ class ElectionDataCleaner:
         # Join cleaned words, removing empty strings
         return ' '.join(word for word in cleaned_words if word)
 
+    # Log message & execution time
+    @log_message(message='date formats normalized')
+    @log_execution_time
     def normalize_date(self, date_str: str) -> str:
         """Normalize date formats using list comprehension for pattern matching"""
         # Common date formats found in Ghana news websites
@@ -99,6 +110,7 @@ class ElectionDataCleaner:
             except ValueError:
                 continue
         return date_str
+
 
     def is_election_related(self, content: str) -> bool:
         """Check if content is election-related using list comprehension"""
@@ -163,39 +175,3 @@ class ElectionDataCleaner:
             }
         }
 
-
-def main():
-    # Example
-    cleaner = ElectionDataCleaner()
-
-    # Sample raw articles (from the web scraping from earlier)
-    raw_articles = [
-        {
-            'title': 'Election Update: NPP Rally in Ashanti Region',
-            'content': 'The New Patriotic Party held a rally in Kumasi, Ashanti Region. About 15,000 votes expected.',
-            'date': 'January 15, 2024',
-            'url': 'https://example.com/article1'
-        },
-        {
-            'title': 'EC Announces Polling Stations',
-            'content': 'Electoral Commission announces 25% increase in polling stations across Greater Accra.',
-            'date': '15-01-2024',
-            'url': 'https://example.com/article2'
-        }
-    ]
-
-    # Clean and process articles
-    cleaned_articles = cleaner.clean_articles(raw_articles)
-    election_articles = cleaner.filter_election_articles(cleaned_articles)
-    stats = cleaner.analyze_article_statistics(cleaned_articles)
-
-    # Example of accessing results
-    for article in election_articles:
-        print(f"\nTitle: {article['title']}")
-        print(f"Date: {article['date']}")
-        print(f"Regions: {', '.join(article['regions_mentioned'])}")
-        print(f"Parties: {', '.join(article['parties_mentioned'])}")
-
-
-# if __name__ == "__main__":
-#     main()

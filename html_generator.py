@@ -1,6 +1,8 @@
 import os
 import webbrowser
 
+from logs import log_execution_time, log_message
+
 """
 html_generator.py
 
@@ -14,6 +16,10 @@ The HTML file includes styling for a clean and organized display of news article
 with links that open in a new browser tab. The generated file is automatically 
 opened in the default web browser.
 """
+
+# Log message & execution time
+@log_message(message='HTML of news generated successfully')
+@log_execution_time
 def generate_html(news_data, output_file='scraped_news.html'):
     """
     Generate an HTML file to display the scraped news data.
@@ -130,7 +136,7 @@ def generate_html(news_data, output_file='scraped_news.html'):
     with open(output_file, 'w', encoding='utf-8') as file:
         file.write(html_content)
 
-    # will be replace with logger scrapper
+    # replaced with logger scrapper but show in console
     print(f"HTML file '{output_file}' generated successfully.")
 
     # Automatically open the file in the default web browser

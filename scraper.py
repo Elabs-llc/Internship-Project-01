@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
-from errorhandler import retry_on_failure  # Import the retry decorator
+from errorhandler import retry_on_failure
+from logs import log_execution_time, log_message  # Import the retry decorator
 
 @retry_on_failure(retries=3, delay=3)
 def fetch_page(url):
@@ -22,6 +23,9 @@ def fetch_page(url):
     response.raise_for_status()  # Will raise an HTTPError for bad responses
     return response.content
 
+# Log message & execution time
+@log_message(message='URL scraped successfully ! and took: ')
+@log_execution_time
 def scrape_election_news(url):
     """
     Scrapes election news from the given URL with error handling.
